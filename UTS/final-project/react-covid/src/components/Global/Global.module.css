@@ -1,0 +1,40 @@
+/* Small Screen */
+
+.global {
+    margin-bottom: 1rem;
+  }
+  
+  
+  .global__status{
+    margin-bottom: 1rem;
+  }
+  
+  /* .global__total{
+  
+  } */
+  
+  .global__card{
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .global__kolom{
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+  }
+  
+  /* Medium Screen */
+  @media (min-width: 768px) {
+    .global {
+      flex-basis: 50%;
+    }
+  }
+  
+  /* Large Screen */
+  @media (min-width: 992px) {
+    .global {
+      flex-basis: 25%;
+      padding: 1rem;
+    }
+  }

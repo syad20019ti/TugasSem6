@@ -1,0 +1,109 @@
+/* Small Screen */
+.container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .AddFormCovid {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+  }
+  
+  .AddFormCovid__left {
+    display: none;
+    /* margin-bottom: 1rem; */
+  }
+  
+  .AddFormCovid__title {
+    /* width: 100%; */
+    color: #06D6A0;
+    margin-bottom: 1rem;
+    font-size: 2.44rem;
+    /* margin-right: 12rem; */
+    text-align: center;
+  }
+  
+  .AddFormCovid__input {
+    width: 100%;
+    padding: 12px 3px;
+    margin-bottom: 15px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    flex-direction: column;
+  }
+  
+  .AddFormCovid__select {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+  
+  .AddFormCovid__label {
+    color: #64748b;
+    margin-bottom: 1rem;
+  }
+  
+  .AddFormCovid__button {
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #06D6A0;
+    color: #fff;
+    display: block;
+    margin: 1px auto;
+    width: 100%;
+    transition-duration: 0.4s;
+  }
+
+  .AddFormCovid__option {
+    color: grey;
+    text-align: left;
+  }
+  
+  .AddFormCovid__image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 25px;
+    /* margin-left: 12rem; */
+  }
+  
+  /* Medium Screen */
+  @media (min-width: 768px) {
+    /*
+       * Nothing TODO Here.
+       * We dont change style AddFormCovid. 
+       */
+  }
+  
+  /* Large Screen */
+  @media (min-width: 992px) {
+    .container {
+      max-width: 1200px;
+      margin: 3rem auto;
+    }
+  
+    .AddFormCovid {
+      margin: 0 1rem;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: left;
+    }
+  
+    .AddFormCovid__left {
+      flex-basis: 60%;
+    }
+  
+    .AddFormCovid__right {
+      flex-basis: 40%;
+    }
+  }
+  
